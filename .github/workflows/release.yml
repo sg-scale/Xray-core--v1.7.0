@@ -161,7 +161,7 @@ jobs:
           mv xray xray.exe
 
       - name: Prepare to release
-        uses: nick-fields/retry@v2
+        uses: nick-fields/retry@v4
         with:
           timeout_minutes: 60
           retry_wait_seconds: 60
