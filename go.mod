@@ -1,6 +1,6 @@
 module github.com/xtls/xray-core
 
-go 1.19
+go 1.26.0
 
 require (
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
@@ -24,7 +24,7 @@ require (
 	go.starlark.net v0.0.0-20221205180719-3fd0dac74452
 	golang.org/x/crypto v0.4.0
 	golang.org/x/net v0.4.0
-	golang.org/x/sync v0.1.0
+	golang.org/x/sync v0.25.0
 	golang.org/x/sys v0.3.0
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
